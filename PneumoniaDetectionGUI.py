@@ -8,7 +8,7 @@ from tkinter import *
 from tkinter import filedialog
 import PIL.Image
 import PIL.ImageTk
-loaded_model = load_model("pneumonia_detection_model.h5")
+loaded_model = load_model("trained_pneumonia_model.h5")
 root = Tk()
 root.title("Pneumonia Detection")
 root.state('zoomed')
